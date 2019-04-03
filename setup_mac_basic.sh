@@ -90,11 +90,6 @@ if [ $? -ne 0 ]; then
     brew install zsh --with-pcre
 fi
 
-which htop >/dev/null
-if [ $? -ne 0 ]; then
-    brew install htop --with-ncurses
-fi
-
 which python3 >/dev/null
 if [ $? -ne 0 ]; then
     brew install python
